@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c4b8be-5e1f-4880-bcbb-27a478ff76a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_build.py" afterPath="$PROJECT_DIR$/test/test_build.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,21 +14,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_build.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_build.py">
+      <file leaf-file-name="test_build.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_build.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="324">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -94,26 +90,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fsdse-python-assignment-223" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fsdse-python-assignment-223" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -146,7 +133,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for test_build.test_whether_the_string_is_there_or_not" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for test_build.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -157,11 +144,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fsdse-python-assignment-223" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_build.test_whether_the_string_is_there_or_not&quot;" />
+      <option name="_new_target" value="&quot;test_build.py&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for test_build.TestBuild.test_whether_the_string_is_there_or_not" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for test.test_build.TestBuild.test_whether_the_string_is_there_or_not" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -172,11 +159,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fsdse-python-assignment-223" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_build.TestBuild.test_whether_the_string_is_there_or_not&quot;" />
+      <option name="_new_target" value="&quot;test.test_build.TestBuild.test_whether_the_string_is_there_or_not&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for test_build.TestBuild.test_whether_the_calc_of_len_is_proper" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for test.test_build.TestBuild.test_whether_the_calc_of_len_is_proper" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -187,11 +174,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fsdse-python-assignment-223" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_build.TestBuild.test_whether_the_calc_of_len_is_proper&quot;" />
+      <option name="_new_target" value="&quot;test.test_build.TestBuild.test_whether_the_calc_of_len_is_proper&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for test_build.TestBuild" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for test.test_build.TestBuild" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -202,7 +189,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="fsdse-python-assignment-223" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_build.TestBuild&quot;" />
+      <option name="_new_target" value="&quot;test.test_build.TestBuild&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
@@ -272,18 +259,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.build" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_build.test_whether_the_string_is_there_or_not" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_build.TestBuild.test_whether_the_string_is_there_or_not" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_build.TestBuild.test_whether_the_calc_of_len_is_proper" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_build.TestBuild" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_build.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test.test_build.TestBuild.test_whether_the_string_is_there_or_not" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test.test_build.TestBuild.test_whether_the_calc_of_len_is_proper" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test.test_build.TestBuild" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.build" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_build.TestBuild" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_build.TestBuild.test_whether_the_calc_of_len_is_proper" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_build.TestBuild.test_whether_the_string_is_there_or_not" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_build.test_whether_the_string_is_there_or_not" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test.test_build.TestBuild" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test.test_build.TestBuild.test_whether_the_calc_of_len_is_proper" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test.test_build.TestBuild.test_whether_the_string_is_there_or_not" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_build.py" />
       </list>
     </recent_temporary>
   </component>
@@ -366,18 +353,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_build.py">
+    <entry file="file://$PROJECT_DIR$/build.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="324">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.py">
+    <entry file="file://$PROJECT_DIR$/test/test_build.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding />
         </state>
       </provider>
